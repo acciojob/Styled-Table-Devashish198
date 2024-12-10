@@ -1,1 +1,15 @@
-/* your code */
+#table1{
+	border:1px solid;
+	border-radius:10px;
+	border-collapse: collapse;
+}
+#row1{
+	background-color:skyblue;
+}
+#table1 tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+
+#table1 tr:hover {
+	background-color: #ddd;
+}
